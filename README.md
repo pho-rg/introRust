@@ -1,6 +1,6 @@
-RUST
+##RUST
 
-Langage compilé (rustc) ; extension .rs
+> Langage compilé (rustc) ; extension .rs
 Rust dans la tendance pour les entreprises
 
 - très bonne gestion de la mémoire
@@ -18,8 +18,11 @@ https://codeshare.io/GAKlqe
 cargo new tp0
 
 cargo build  : compile le projet mode debug par defaut
+
 cargo check   : vérifie le code sans produire de binaire
+
 cargo update  met à jour les dépendances
+
 cargo doc --open  : gènère la docutmentation et l'ouvre dans le navigateur Web
 
 cargo run : compile et exécute le projet
