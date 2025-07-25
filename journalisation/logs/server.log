@@ -41,3 +41,20 @@
 [2025-07-24 16:40:52 UTC] [CLIENT-127.0.0.1:59098] Connexion client #1
 [2025-07-24 16:40:57 UTC] [CLIENT-127.0.0.1:59098] gg
 [2025-07-24 16:41:00 UTC] [CLIENT-127.0.0.1:59098] Deconnexion. Clients restants: 0
+[2025-07-25 08:04:42 UTC] [SERVER] Serveur demarre
+[2025-07-25 08:06:15 UTC] [CLIENT-127.0.0.1:60291] Connexion client #1
+[2025-07-25 08:06:20 UTC] [CLIENT-127.0.0.1:60291] hi
+[2025-07-25 08:07:12 UTC] [CLIENT-127.0.0.1:60291] Deconnexion. Clients restants: 0
+[2025-07-25 08:07:55 UTC] [SERVER] Serveur demarre
+[2025-07-25 08:08:44 UTC] [CLIENT-127.0.0.1:60305] Connexion client #1
+[2025-07-25 08:09:04 UTC] [CLIENT-127.0.0.1:60305] hello
+[2025-07-25 08:09:08 UTC] [CLIENT-127.0.0.1:60305] jj
+[2025-07-25 08:09:12 UTC] [CLIENT-127.0.0.1:60305] quitter
+[2025-07-25 08:09:40 UTC] [CLIENT-127.0.0.1:60305] exit
+[2025-07-25 08:09:47 UTC] [CLIENT-127.0.0.1:60305] 
+[2025-07-25 08:09:47 UTC] [CLIENT-127.0.0.1:60305] Erreur lecture: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte. (os error 10053)
+[2025-07-25 08:09:47 UTC] [CLIENT-127.0.0.1:60305] Deconnexion. Clients restants: 0
+[2025-07-25 08:10:08 UTC] [SERVER] Serveur demarre
+[2025-07-25 08:11:11 UTC] [CLIENT-127.0.0.1:60316] Connexion client #1
+[2025-07-25 08:11:18 UTC] [CLIENT-127.0.0.1:60316] 133
+[2025-07-25 08:11:22 UTC] [CLIENT-127.0.0.1:60316] Deconnexion. Clients restants: 0

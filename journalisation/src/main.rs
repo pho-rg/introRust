@@ -27,7 +27,7 @@ impl LogServer {
             fs::create_dir_all(parent).await?;
         }
         self.write_log("SERVER", "Serveur demarre").await?;
-        println!("Serveur de journalisation initialise");
+        println!("Serveur de logs initialise");
         println!("Fichier de logs: {}", self.log_file_path);
         Ok(())
     }
@@ -86,7 +86,7 @@ impl LogServer {
         let mut lines = reader.lines();
 
         let welcome_msg = format!(
-            "Bienvenue sur le serveur de log\nID: {}\nClients connectes: {}\nTapez vos messages (CTRL+C pour quitter)",
+            "Bienvenue sur le serveur de log - ID: {} - Clients connectes: {}\nTapez vos messages (quitter pour sortir)",
             client_id, self.get_client_count().await
         );
         let _ = writer.write_all(welcome_msg.as_bytes()).await;
@@ -99,7 +99,7 @@ impl LogServer {
                     }
 
                     match line.trim().to_lowercase().as_str() {
-                        "exit" => {
+                        "quitter" => {
                             let _ = writer.write_all(b"Au revoir\n").await;
                             break;
                         }
@@ -188,6 +188,6 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         }
     }
 
-    println!("Serveur de journalisation arrete");
+    println!("Serveur de logs arrete");
     Ok(())
 }
